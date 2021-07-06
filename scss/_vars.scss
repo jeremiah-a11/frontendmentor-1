@@ -19,6 +19,7 @@ $breakDesktop: 1440px;
 @mixin font-p {
   font-family: "Lexend Deca";
   font-weight: 400;
+  line-height: 1.5rem;
   color: $transparentWhite;
 }
 
