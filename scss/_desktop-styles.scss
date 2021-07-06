@@ -4,11 +4,19 @@
     flex-direction: row;
   }
 
+  .card {
+    max-width: 14rem;
+  }
+
   .card__cta:hover {
     position: relative;
     border: 2px solid $veryLightGray;
     color: $veryLightGray !important;
     cursor: pointer;
+  }
+
+  .card__text {
+    margin-bottom: 5rem !important;
   }
 
   .sedans {
