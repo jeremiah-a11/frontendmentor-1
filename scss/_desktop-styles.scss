@@ -1,0 +1,14 @@
+@media screen and (min-width: $breakMobile) {
+  .container {
+    margin: 3rem;
+    flex-direction: row;
+  }
+
+  .sedans {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}

@@ -1,0 +1,29 @@
+// Colors
+$brightOrange: hsl(31, 77%, 52%); // Sedans card background
+$darkCyan: hsl(184, 100%, 22%); // SUVs card background
+$veryDarkCyan: hsl(179, 100%, 13%); // Luxury card background
+$transparentWhite: hsla(0, 0%, 100%, 0.75); //paragraphs
+$veryLightGray: hsl(0, 0%, 95%); // background, headings, buttons
+
+// Breakpoints
+$breakMobile: 376px;
+$breakDesktop: 1440px;
+
+// Mixins for Fonts. It's not necessecary, but it feels clean.
+@mixin font-h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: "700";
+  color: $veryLightGray;
+}
+
+@mixin font-p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: $transparentWhite;
+}
+
+@mixin font-button {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  background-color: $veryLightGray;
+}

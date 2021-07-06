@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $veryLightGray;
+}
+
+main {
+  display: flex;
+}
+
+.card {
+  padding: 3rem;
+
+  .card__icon,
+  .card__title,
+  .card__text {
+    margin-bottom: 2rem;
+  }
+
+  .card__title {
+    @include font-h1;
+  }
+
+  .card__text {
+    @include font-p;
+  }
+
+  .card__cta {
+    @include font-button;
+    background: $veryLightGray;
+    border: none;
+    border-radius: 123px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+
+  &.sedans {
+    background-color: $brightOrange;
+
+    .card__cta {
+      color: $brightOrange;
+    }
+  }
+
+  &.suvs {
+    background-color: $darkCyan;
+
+    .card__cta {
+      color: $darkCyan;
+    }
+  }
+
+  &.luxury {
+    background-color: $veryDarkCyan;
+    .card__cta {
+      color: $veryDarkCyan;
+    }
+  }
+}

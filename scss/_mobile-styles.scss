@@ -1,0 +1,16 @@
+// This project is styled mobile-first, which means that this is the default layout.
+
+@media screen and (max-width: $breakMobile - 1) {
+  .container {
+    flex-direction: column;
+    margin: 2rem;
+
+    .sedans {
+      border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+      border-radius: 0 0 10px 10px;
+    }
+  }
+}
