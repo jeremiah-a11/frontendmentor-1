@@ -4,11 +4,32 @@
     flex-direction: row;
   }
 
+  .card__cta:hover {
+    position: relative;
+    border: 2px solid $veryLightGray;
+    color: $veryLightGray !important;
+    cursor: pointer;
+  }
+
   .sedans {
     border-radius: 10px 0 0 10px;
+
+    .card__cta:hover {
+      background: $brightOrange;
+    }
+  }
+
+  .suvs {
+    .card__cta:hover {
+      background: $darkCyan;
+    }
   }
 
   .luxury {
     border-radius: 0 10px 10px 0;
+
+    .card__cta:hover {
+      background: $veryDarkCyan;
+    }
   }
 }

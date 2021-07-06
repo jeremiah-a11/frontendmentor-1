@@ -91,11 +91,26 @@ main {
     margin: 3rem;
     flex-direction: row;
   }
+  .card__cta:hover {
+    position: relative;
+    border: 2px solid #f2f2f2;
+    color: #f2f2f2 !important;
+    cursor: pointer;
+  }
   .sedans {
     border-radius: 10px 0 0 10px;
   }
+  .sedans .card__cta:hover {
+    background: #e38826;
+  }
+  .suvs .card__cta:hover {
+    background: #006970;
+  }
   .luxury {
     border-radius: 0 10px 10px 0;
+  }
+  .luxury .card__cta:hover {
+    background: #004241;
   }
 }
 
